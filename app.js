@@ -14,6 +14,7 @@ const routes = require("./src/routes/index")
 
 app.use("/api", routes);
 
-app.listen(5000, () => {
-    console.log("Servidor online!!!!");
+app.listen({
+    host: '0.0.0.0',
+    port: process.env.PORT || 3333
 })
