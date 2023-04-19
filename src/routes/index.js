@@ -12,5 +12,9 @@ const userRouter = require("./userRoutes");
 
 router.use("/", userRouter);
 
+const driveRoute = require("./indexDrive");
+
+router.use("/", driveRoute);
+
 
 module.exports = router;

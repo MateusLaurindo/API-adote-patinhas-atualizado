@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "adote-patinhas-profissional",
+  "private_key_id": "3296f007021acb48cfaa19a41d67912f1da9a6cb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDeB96OvRpEGefh\nAI+IO/OvghEpDKObTAyAGG6txzmraDszlfFnOqxLC9GYCu876YmUp/0hhyTqOpTT\ngVhYyYs2vR5g018kCBRA/6qZkHYfUjHvvSIQeagWZqvKDh7SDz77+L2Ak87SZeFH\nGhJjRC5e+oJ1ZM0N0BuZvwRMUw4u/ncSr5GvTSYtkMKoEn3dVqgm4ZT0CVqpnPPy\n6Vf1/sRtF0v2nWaDFIzJG7E6VfTLTOY68Bgl6/r1cTnVldKeYIxsp5pHJqqK0NJX\nLZ90UF9tuzB2Gdqfuvs/Ya41yjqOo1B6bN45E2Iu9OAZ9fqqqgWBRrL1NbG1Tshi\nM7r3ou05AgMBAAECggEAFpzdUDMG+ezcAnzKwXyen886xXAfuQ0soD6sxgbacyA7\nWFCC/Kkbe0ytuOMTNKo/LHxT8d5YVoEnH2fm2isTojxuW7znTY2Dl4+aXce6WgwG\nYTTlY2FqiraD9EEOJ0VtfB7cGPxkxeWhpRrNCN5crShtETz2C9w4NWdAji/uy78G\n77xbl438bqrZA4bM2nTmBxnqKrvMaE44LqAfZhoMj2V9KV5aW7VHOYwRUobXQJCk\nLwSX2GujPforddKkrZvL2OAiPzzGaJ6sxp+U0vLeNnhYVQV42P81AkzJ8JdqAzRL\nvfguF82IpC/o/rN5SgvoynP+WqyzegrDgTARGsbFkQKBgQD/GoeuPYJgLSi/y+tj\nYfA3gxpoZxwdqoIk+8B1GJsCcltBXE1+3xr0wGtqSIsm+96h5qDFF5ZB6ksuwFJx\nmU4QsHGKySuH+rWOz/uoKSppXVj0wiDcwDFCpTrJhBdAHGlgBlojmgeqN01mbcwA\nCkk360rt1P2HZhevNj3oOysAqQKBgQDez5b5Qcxig7OCYNAO8SNPpn0u6cYlJowS\n320KaydVhAuoYhMft4Le+NKb8YM+U3M0f1BBRgQoBtKgEf6MKdcqWvg25XvZ17I8\nGZRbLSXeYvBfNu0cmJrDuEXE1MeYMUpXsVoPhhYyPeNs70VK2SxRF+b61trxwGnL\nx5H071wSEQKBgQCv3R5EZGsI2pkJAA+aR95OprcB2nNrkCyASn33O6tBGI0IlhVm\nrW/r4usqLjCgA2sLue6DcStI7bg+1p7/aWyD3N+pid3UtGWNupwG5bozQQMeWOZG\nyMgs5bONUN6md++9HyPs/zbhhZZ6Up8cN/sZ7b+ODhNp0Fvrkj1DZ+bRYQKBgQC/\ndUw69XJmONt4ri46mLUKDXtGY7VTWRNGaFzvdfI/xo6p61SZjXxUkyWOwPJRDS5S\nrw/Mdxi9OFenGq9Ly+xLRg5CReGt6G4MvMJBssL2nLgGaVFIoE1k3yR8pYa5XamP\nPyOvcT4DgDC7+8LkNUeii1J8u0E6OWfvppbiDQhlsQKBgQDmG1hvnxi95K3n5UHr\nXFN7SBIUtbmMJgnzWPbzBAbqbZ3DqL+1OrQYQNfUujRe3PAVyqbDvKyfhk5nLWcZ\nJQ3Z3sNjEpXhrOV01wc8uj9+lvk27XCyKjLsyyjKB6BR3p82FAM7bW0swNEqU7Fc\nSHFQEd3dEw7Sbr2fJFIRiDAt4w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "adote-patinhas-drive@adote-patinhas-profissional.iam.gserviceaccount.com",
+  "client_id": "100955488438664513646",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adote-patinhas-drive%40adote-patinhas-profissional.iam.gserviceaccount.com"
+}
