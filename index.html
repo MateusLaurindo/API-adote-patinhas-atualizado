@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <form>
+        <input type="file" name="Files" required multiple />
+
+        <input type="text" name="Name" placeholder="Name" />
+
+        <input type="email" name="Email Address" placeholder="Email" required />
+
+        <input type="text" name="Country" placeholder="Country" />
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+<script>
+
+    const formElem = document.querySelector('form');
+
+    formElem.addEventListener('submit', async (e) => {
+
+        console.log("form submitted")
+
+        e.preventDefault();
+
+        await fetch('/upload', {
+
+            method: 'POST',
+
+            body: new FormData(formElem),
+
+        });
+
+    });
+
+</script>
+
+</html>
