@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-
+const port = process.env.PORT || 3000
 const conn = require("./src/config/dbConnect");
 conn();
 
@@ -14,9 +14,4 @@ const routes = require("./src/routes/index")
 
 app.use("/api", routes);
 
-app.listen({
-    host: '0.0.0.0',
-    port: process.env.PORT ? Number(process.env.PORT) : 3333,
-}).then(()=> {
-    console.log('server is runnning!')
-})
+app.listen(port, () => console.log("aee caraiii"))
