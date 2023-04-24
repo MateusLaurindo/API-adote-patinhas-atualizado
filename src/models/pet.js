@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
-//const { userSchema } = require("./user");
 
 const petSchema = new Schema(
     {
@@ -23,7 +22,6 @@ const petSchema = new Schema(
         data_de_cadastro: { type: Date, require: true },
         imagem: { type: String, require: true },
         user: {type: mongoose.Schema.Types.ObjectId, ref: "user", required: true}
-        //user: [userSchema]
     },
     {
         timestamps: true

@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
-//const { petSchema } = require("./pet");
 
 const userSchema = new Schema(
     {
@@ -11,7 +10,6 @@ const userSchema = new Schema(
         senha: { type: String, require: true },
         telefone: { type: Number, require: true },
         imagem: { type: String, require: true },
-        //pet:[petSchema]
     },
     {
         timestamps: true

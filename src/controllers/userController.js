@@ -1,5 +1,3 @@
-// const user = require("../models/user");
-
 const { user: userModel } = require("../models/user");
 
 const UserController = {

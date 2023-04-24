@@ -1,12 +1,10 @@
-// const pet = require("../models/pet");
-
 const { pet: petModel } = require("../models/pet");
-//const fs = require("fs");
+
 
 const PetController = {
     create: async (req, res) => {
         try {
-            //const file = req.file;
+           
             const petId = {
                 nome: req.body.nome,
                 raca: req.body.raca,
@@ -25,7 +23,7 @@ const PetController = {
                 data_de_cadastro: req.body.data_de_cadastro,
                 imagem: req.body.imagem,
                 user: req.body.user
-                //user: req.body.user
+                
 
             }
 
@@ -35,7 +33,7 @@ const PetController = {
         }
         catch (error) {
             res.status(500).json({ msg: 'Deu errado' })
-            // console.log(error);
+            
         }
     },
 
@@ -112,7 +110,7 @@ const PetController = {
                 telefone: req.body.telefone,
                 data_de_cadastro: req.body.data_de_cadastro,
                 imagem: req.body.imagem,
-                //user: req.body.user
+               
 
             }
 
